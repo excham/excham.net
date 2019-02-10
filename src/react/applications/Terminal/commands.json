@@ -1,0 +1,61 @@
+{
+  "motd": {
+    "type": "simple",
+    "output": [
+      "Welcome back!\n",
+      "\n",
+      "Type help for a list of commands\n"
+    ]
+  },
+  "help": {
+    "type": "simple",
+    "output": [
+      "help    Displays this help message",
+      "cd      Change to a specified directory",
+      "        Usage: cd directory",
+      "ls      Lists the contents of current directory",
+      "cat     Prints the contents of a file",
+      "        Usage: cat filename",
+      "        Alias: less",
+      "clear   Clears the terminal screen",
+      "open    Open a file",
+      "        Usage: open filename"
+    ]
+  },
+  "cd": {
+    "type": "command",
+    "function": "cd"
+  },
+  "cwd": {
+    "type": "command",
+    "function": "cwd"
+  },
+  "ls": {
+    "type": "command",
+    "function": "ls"
+  },
+  "less": {
+    "type": "command",
+    "function": "cat"
+  },
+  "cat": {
+    "type": "command",
+    "function": "cat"
+  },
+  "clear": {
+    "type": "command",
+    "function": "clear"
+  },
+  "sudo": {
+    "type": "command",
+    "function": "sudo"
+  },
+  "open": {
+    "type": "command",
+    "function": "open"
+  },
+  "whoami": {
+    "type": "command",
+    "function": "whoami"
+  }
+}

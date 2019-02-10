@@ -1,0 +1,148 @@
+html, body, #desktop {
+  margin: 0px;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.window {
+  position: absolute;
+  resize: both;
+  box-sizing: content-box;
+  border: 2px #E0E0E0 solid;
+  border-radius: 2px;
+}
+
+.window .window-header {
+  background-color: #E0E0E0;
+  padding: 0px 0px 0px 10px;
+}
+
+/* .window .window-close {
+  display: inline-block;
+  color: #FFCDD2;
+  height: 14px;
+  width: 14px;
+  text-align: center;
+  border: 1px #F44336 solid;
+  border-radius: 5px;
+  margin-top: 4px;
+  font-size: 0.8rem;
+  line-height: 0.7rem;
+  background-color: #EF5350;
+  cursor: pointer;
+} */
+
+.window .window-close {
+  display: inline-block;
+  cursor: pointer;
+  width: 23px;
+  height: 22px;
+  line-height: 1.2rem;
+  text-align: center;
+  border-radius: inherit;
+  float: right;
+}
+
+.window .window-close:hover {
+  background-color: #BDBDBD;
+}
+
+/*
+    DESKTOP
+*/
+
+#desktop {
+  background: url('https://unsplash.it/0/?image=911') no-repeat center center fixed;
+  background-size: cover;
+}
+
+#desktop .desktop-icons {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100vh;
+  padding: 40px;
+
+  color: #fff;
+}
+
+#desktop .desktop-icon {
+  display: flex;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  background-color: rgba(128, 128, 128, 0.3);
+  border-radius: 6px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-end;
+}
+
+
+/*
+    APPBAR
+*/
+
+#appbar {
+  background-color: rgba(128, 128, 128, 0.6);
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  height: 50px;
+  bottom: 0px;
+  left: 10vh;
+
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+
+  color: #fff;
+
+  justify-content: center;
+}
+
+#appbar .appbar-item {
+  padding: 12px 10px 0px 10px;
+}
+
+
+/*
+    TERMINAL
+*/
+
+#terminalWrapper {
+  min-height: inherit;
+  height: inherit;
+  overflow-y: scroll;
+
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #212121;
+}
+
+#terminal {
+  color: #BDBDBD;
+  font-family: 'Fira Mono', monospace;
+  font-size: 0.9rem;
+  padding: 3px 5px;
+}
+
+#terminal__input {
+  /* display: none; */
+  border: none;
+  outline: none;
+  color: inherit;
+  background-color: inherit;
+}
+
+.terminal__prompt {
+  color: #388e3c;
+}
+
+.terminal__dir {
+  color: #1976d2;
+}
+
+.terminal__promptDollarSignThing {
+  padding-right: 5px;
+}

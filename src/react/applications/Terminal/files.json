@@ -1,0 +1,42 @@
+{
+  "/usr/isaac/README.md": {
+    ".$CONTENTS": [
+      "readme:",
+      "line one",
+      "two",
+      "thr ee"
+    ]
+  },
+  "/usr/isaac/contact/twitter.com": {
+    ".$CONTENTS": [
+      "https://twitter.com/excham_"
+    ]
+  },
+  "/usr/isaac/contact/github.com": {
+    ".$CONTENTS": [
+      "https://github.com/excham"
+    ]
+  },
+  "/usr/isaac/contact/discordapp.com": {
+    ".$CONTENTS": [
+      "search: excham#8080"
+    ]
+  },
+  "/usr/isaac/contact/hackthebox.eu": {
+    ".$CONTENTS": [
+      "https://www.hackthebox.eu/home/users/profile/12563"
+    ]
+  },
+  "/usr/isaac/.well-known/pgp.pub": {
+    ".$CONTENTS": [
+      "//"
+    ]
+  },
+  "/root/secret.txt": {
+    "owner": "root",
+    "__README": "REALLY???!?! YOU'RE JUST GONNA VIEW THE SOURCE??? S. M. H.",
+    ".$CONTENTS": [
+      "this is meant to be secret"
+    ]
+  }
+}

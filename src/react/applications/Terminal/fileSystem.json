@@ -1,0 +1,26 @@
+{
+  "/": {
+    "usr": {
+      "isaac": {
+        ".well-known": {
+          ".$CONTENTS": [
+            "pgp.pub"
+          ]
+        },
+        "contact": {
+          ".$CONTENTS": [
+            "twitter.com", "github.com", "discordapp.com", "hackthebox.eu"
+          ]
+        },
+        ".$CONTENTS": [
+          "README.md"
+        ]
+      }
+    },
+    "root": {
+      ".$CONTENTS": [
+        "secret.txt"
+      ]
+    }
+  }
+}

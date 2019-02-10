@@ -1,0 +1,36 @@
+{
+  "name": "excham.net",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "./node_modules/.bin/webpack",
+    "build": "./node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/excham/excham.net.git"
+  },
+  "author": "excham <isaac@excham.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/excham/excham.net/issues"
+  },
+  "homepage": "https://github.com/excham/excham.net#readme",
+  "dependencies": {
+    "bulma": "^0.7.2",
+    "css-loader": "^2.1.0",
+    "node-sass": "^4.11.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.1"
+  }
+}
